@@ -2,8 +2,6 @@
 
 import turtle
 import winsound
-import ctypes
-ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 wn = turtle.Screen()
 wn.title("Pong by Ayush")
